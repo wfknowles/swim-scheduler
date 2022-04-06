@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "first_name": "First",
+      "last_name": "Kinder",
+      "instructor_gender": "Any",
+      "id": 40057,
+      "level_id": 18
+    },
+    {
+      "first_name": "Second",
+      "last_name": "Kinder",
+      "instructor_gender": "Any",
+      "id": 40831,
+      "level_id": 9
+    }
+  ]
+}
