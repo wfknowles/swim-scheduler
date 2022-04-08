@@ -1,5 +1,5 @@
 import React from 'react';
-import { reduceCart, inCart } from '../../utils/cartReducer.js';
+import { reduceCart, inCart } from '../../utils/reduceCart.js';
 import { formatTime } from '../../utils/dateTimeFormatting.js';
 
 function Opening (props) {

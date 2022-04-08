@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import Opening from '../Opening/Opening.js';
 import Cart from '../Cart/Cart.js';
 import Filter from '../Filter/Filter.js';
 import searchResults from '../../schedule_response.json';
-import { filterResults } from '../../utils/resultFilters.js';
+import { filterResults } from '../../utils/filterResults.js';
 import { formatDate } from '../../utils/dateTimeFormatting.js';
 
 function SearchResults () {
@@ -20,11 +20,9 @@ function SearchResults () {
     <div className="container">
 
       <div className="row py-3 align-items-center">
-        <div className="col-sm-10 d-flex justify-content-between align-items-center">
+        <div className="col-sm-12 d-flex justify-content-between align-items-center">
             <h3>Available Openings</h3>
             <Filter filter={filter} setFilter={setFilter} />
-        </div>
-        <div className="col-sm-2 d-flex justify-content-end">
             <Cart cart={cart} setCart={setCart} />
         </div>
       </div>

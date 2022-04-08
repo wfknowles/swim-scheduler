@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { reduceCart } from '../../utils/cartReducer.js';
+import { reduceCart } from '../../utils/reduceCart.js';
 import { formatTime, formatDate } from '../../utils/dateTimeFormatting.js';
 
 function Cart (props) {
